@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.main__text {
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+.main__circles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.main__circles {
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.main__circle-left {
+  max-width: 350px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+}
+
+.border {
+  border: 2px solid blueviolet;
+}
+
+.blow {
+  display: flex;
+  gap: 10px;
+}
+
+.blow:nth-child(1) {
+  margin-left: 30px;
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  background: blueviolet;
+  border-radius: 50%;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.main__circle-right {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid transparent;
+  padding: 30px 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid yellow;
+}
+
+.yellow-balls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.yellow-ball {
+  width: 40px;
+  height: 40px;
+  background: yellow;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  gap: 15px;
+}
+
+.form__input,
+.form__input2 {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  outline: none;
+  border: 3px solid rgb(177, 48, 72);
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.form__input,
+.form__input2:focus {
+  color: crimson;
+}
+
+.form__input2 {
+  /* display: none; */
+  margin-left: -30px;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+}
+
+.form__btn {
+  width: 70px;
+  height: 50px;
+  outline: none;
+  border: 3px solid rgb(177, 48, 72);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.button__items {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: rgb(0, 115, 255);
+  font-size: 45px;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button__items:hover {
+  opacity: 0.7;
+}
